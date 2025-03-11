@@ -1,0 +1,81 @@
+/* .heading{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size:xx-large;
+    margin-top: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap: 10px; 
+    padding: 40px;
+}
+.product-card img{
+    width: 300px;
+    height: 300px; display: flex;
+}  */
+
+
+
+
+.heading {
+    text-align: center;
+    color: white; /* Adjust based on your background */
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.products {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align items in a row */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: flex-start; /* Align items to the start */
+    gap: 20px; /* Space between cards */
+    padding: 40px;
+}
+
+.product-card {
+    display: flex; /* Flexbox for product card */
+    flex-direction: column; /* Stack image and info vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #f9f9f9; /* Card background color */
+    border: 1px solid #ccc; /* Border for card */
+    border-radius: 8px; /* Rounded corners */
+    width: 300px; /* Fixed width for cards */
+    padding: 10px; /* Padding inside the card */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.product-card img {
+    width: 100%; /* Image takes full width of card */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-info {
+    text-align: center; /* Center text in product info */
+}
+
+.product-info h4 {
+    margin: 10px 0; /* Margin for heading */
+}
+
+.product-info p {
+    margin: 5px 0; /* Margin for paragraph */
+}
+
+.product-info button {
+    padding: 10px 15px; /* Padding for button */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.product-info button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
